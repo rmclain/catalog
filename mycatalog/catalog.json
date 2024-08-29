@@ -1,0 +1,11 @@
+{
+    "app": "mycatalog",
+    "name": "My Custom Catalog",
+    "description": "A custom catalog for TrueNAS SCALE",
+    "maintainers": [
+      {
+        "name": "",
+        "email": ""
+      }
+    ]
+  }

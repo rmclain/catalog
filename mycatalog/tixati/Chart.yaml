@@ -1,0 +1,5 @@
+apiVersion: v2
+name: tixati
+description: A Helm chart for Tixati torrent client
+version: 0.1.0
+appVersion: "latest"

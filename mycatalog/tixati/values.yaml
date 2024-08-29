@@ -1,0 +1,28 @@
+image:
+  repository: jlesage/tixati
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 5800
+  bittorrentPort: 8800
+
+ingress:
+  enabled: false
+
+persistence:
+  config:
+    enabled: true
+    size: 1Gi
+  downloads:
+    enabled: true
+    size: 10Gi
+
+resources:
+  limits:
+    cpu: 1
+    memory: 2Gi
+  requests:
+    cpu: 200m
+    memory: 512Mi
