@@ -11,12 +11,8 @@
       "description": "Tixati BitTorrent client",
       "categories": ["downloaders"],
       "app_readme": "charts/tixati/README.md",
-      "healthy": true,
-      "healthy_error": null,
-      "location": "/charts/tixati",
-      "latest_version": "0.1.0",
-      "latest_app_version": "latest",
-      "versions": ["0.1.0"]
+      "location": "charts/tixati",
+      "latest_version": "0.1.0"
     }
   }
 }
