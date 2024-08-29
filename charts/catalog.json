@@ -1,5 +1,7 @@
 {
-  "name": "My Custom Catalog",
+  "version": "2.0",
+  "id": "your-catalog-name",
+  "name": "Your Custom Catalog",
   "description": "A custom catalog for TrueNAS SCALE applications",
   "maintainer": "Your Name",
   "maintainer_email": "1417707+rmclain@users.noreply.github.com",
