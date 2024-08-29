@@ -1,18 +1,27 @@
 {
-  "name": "My Custom Catalog",
-  "description": "A custom catalog for TrueNAS SCALE applications",
-  "maintainer": "Your Name",
-  "maintainer_email": "1417707+rmclain@users.noreply.github.com",
-  "git_repository": "https://github.com/rmclain/catalog.git",
-  "branch": "main",
-  "artifacts": {
-    "tixati": {
-      "name": "Tixati",
-      "description": "Tixati BitTorrent client",
-      "categories": ["downloaders"],
-      "app_readme": "charts/tixati/README.md",
-      "location": "charts/tixati",
-      "latest_version": "0.1.0"
+  "version": "1.0",
+  "catalogs": [
+    {
+      "name": "My Custom Catalog",
+      "description": "A custom catalog for TrueNAS SCALE applications",
+      "maintainer": {
+        "name": "Your Name",
+        "email": "1417707+rmclain@users.noreply.github.com"
+      },
+      "location": {
+        "git_repository": "https://github.com/rmclain/catalog.git",
+        "branch": "main"
+      },
+      "charts": {
+        "tixati": {
+          "name": "Tixati",
+          "description": "Tixati BitTorrent client",
+          "categories": ["downloaders"],
+          "app_readme": "charts/tixati/README.md",
+          "location": "charts/tixati",
+          "latest_version": "0.1.0"
+        }
+      }
     }
-  }
+  ]
 }
